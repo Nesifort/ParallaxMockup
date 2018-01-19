@@ -1,0 +1,80 @@
+/*GLOBAL*/
+
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+/*******IMAGE SECTION*****/
+
+.img1,
+.img2,
+.img3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center,
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url(C:/Users/Nesifort/Pictures/Wallpapers/pimg1.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.img2 {
+    background-image: url(https://i.imgur.com/TnaS8D0.jpg);
+    min-height: 400px;
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url(https://wallpapercave.com/wp/TSlZ57J.jpg);
+    min-height: 400px;
+    background-size: cover;
+}
+
+/******TEXT/ SECTIONS*****/
+
+.section {
+    text-align: center;
+    padding:  20px 
+}
+
+.light-section {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.dark-section {
+    background-color: #282e84;
+    color: #ddd;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #fff;
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+}
+
+.ptext .border .trans {
+    background-color: transparent;
+}
